@@ -1,0 +1,6 @@
+IO pins of PIC microcontrollers are divided into different PORTS containing a group of GPIO pins
+In 16F Microcontrollers, each port is associated with two registers : TRIS and PORT. Eg : TRISB, PORTB, TRISD, PORTD
+
+TRIS stands for Tri-State, it determines the direction of each GPIO pins. Logic 1 at a particular bit of TRIS register makes the corresponding pin Input while Logic 0 at a particular bit makes the corresponding pin Output.
+
+https://electrosome.com/led-pic-microcontroller-mplab-xc8/
